@@ -8,11 +8,13 @@
 
 ## Q & A
 
-    Q: 为什么会有这个项目?
-    A: 开发中大量使用英文标点, 频繁切换输入法很繁琐, 所以我统一使用英文标点. 并且在英文标点后加一个空格.
+```txt
+Q: 为什么会有这个项目?
+A: 写博客的时候, 频繁切换输入法很繁琐, 所以我统一使用英文标点. 并且在英文标点后加一个空格.
 
-    Q: 如何自定义规则?
-    A: 替换 `format` 方法中的正则, 欢迎 PR 贡献代码.
+Q: 如何自定义规则?
+A: 替换 `format` 方法中的正则, 欢迎 PR 贡献代码.
+```
 
 ## Todo
 
@@ -25,10 +27,10 @@
 
 ```bash
 # dev
-$ yarn run dev
+$ yarn dev
 
 # build
-$ yarn run build
+$ yarn build
 ```
 
 Any types of contribution are welcome. Thanks.
