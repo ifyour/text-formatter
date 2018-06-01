@@ -2,13 +2,13 @@
 
 > Another text formatting tool.
 
-## Q&A
+## Q & A
 
-Q: 为什么会有这个项目?
-A: 开发中大量使用英文标点, 频繁切换输入法很繁琐, 所以我统一使用英文标点. 并且在英文标点后加一个空格.
+    Q: 为什么会有这个项目?
+    A: 开发中大量使用英文标点, 频繁切换输入法很繁琐, 所以我统一使用英文标点. 并且在英文标点后加一个空格.
 
-Q: 如何自定义规则?
-A: 代码很简单, 欢迎 PR 贡献代码.
+    Q: 如何自定义规则?
+    A: 替换 `format` 方法中的正则, 欢迎 PR 贡献代码.
 
 ## Todo
 
@@ -16,6 +16,18 @@ A: 代码很简单, 欢迎 PR 贡献代码.
 * [x] 标点符号修复
 * [ ] ~~自动排版~~
 * [ ] CI 支持，自动构建输出到 `dist` 目录完成 Github Pages 预览
+
+## Contribution
+
+```bash
+# dev
+$ yarn run dev
+
+# build
+$ yarn run build
+```
+
+Any types of contribution are welcome. Thanks.
 
 ## License
 
