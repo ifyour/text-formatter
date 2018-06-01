@@ -1,5 +1,7 @@
 # Text-formatter
 
+[![](https://data.jsdelivr.com/v1/package/gh/ifyour/text-formatter/badge)](https://www.jsdelivr.com/package/gh/ifyour/text-formatter)
+
 > Another text formatting tool.
 
 ## Preview
