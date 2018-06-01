@@ -1,6 +1,6 @@
 <template>
   <div class="container grid-lg">
-    <GithubBadge slug="ifyour/text-formater" />
+    <GithubBadge slug="ifyour/text-formatter" />
     <h1 class="title">{{ title }}</h1>
     <p class="description">{{ description }}</p>
     <textarea class="form-input" v-model="input" rows="10" placeholder="Type your text here..."></textarea>

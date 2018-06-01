@@ -1,4 +1,4 @@
-# Text-formater
+# Text-formatter
 
 > Another text formatting tool.
 
