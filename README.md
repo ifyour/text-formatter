@@ -2,6 +2,10 @@
 
 > Another text formatting tool.
 
+## Preview
+
+[Live Demo →](https://ifyour.github.io/text-formatter/demo/)
+
 ## Q & A
 
     Q: 为什么会有这个项目?
