@@ -20,8 +20,8 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.2.0/workbox
  */
 self.__precacheManifest = [
   {
-    "url": "__saber/assets/js/main.912f7e.js",
-    "revision": "53602273f3a9b4a4d7ba573a2518e6a7"
+    "url": "__saber/assets/js/main.862d78.js",
+    "revision": "8747747962664f27840368dcdae7d3de"
   },
   {
     "url": "__saber/assets/js/page-index.121b68.js",
@@ -33,7 +33,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "97352c1ccdd5af1abdeae8edc1f1ba03"
+    "revision": "6ed28a4ba52115dbc5ea36d45de65daa"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
