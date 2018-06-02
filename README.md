@@ -6,7 +6,7 @@
 
 ## Preview
 
-[Live Demo →](https://ifyour.github.io/text-formatter/demo/)
+[Live Demo →](https://text-formatter.herokuapp.com/)
 
 ## Q & A
 
