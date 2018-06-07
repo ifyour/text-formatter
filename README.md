@@ -1,6 +1,6 @@
 # Text-formatter
 
-[![](https://data.jsdelivr.com/v1/package/gh/ifyour/text-formatter/badge)](https://www.jsdelivr.com/package/gh/ifyour/text-formatter)[![Build Status](https://travis-ci.org/ifyour/text-formatter.svg?branch=master)](https://travis-ci.org/ifyour/text-formatter)
+[![](https://data.jsdelivr.com/v1/package/gh/ifyour/text-formatter/badge)](https://www.jsdelivr.com/package/gh/ifyour/text-formatter) [![Build Status](https://travis-ci.org/ifyour/text-formatter.svg?branch=master)](https://travis-ci.org/ifyour/text-formatter)
 
 > Another text formatting tool.
 
@@ -10,13 +10,11 @@
 
 ## Q & A
 
-```txt
 Q: 为什么会有这个项目?
 A: 写博客的时候, 频繁切换输入法很繁琐, 所以我统一使用英文标点. 并且在英文标点后加一个空格.
 
 Q: 如何自定义规则?
 A: 替换 `format` 方法中的正则, 欢迎 PR 贡献代码.
-```
 
 ## Todo
 
