@@ -23,7 +23,7 @@ A: 替换 `format` 方法中的正则, 欢迎 PR 贡献代码.
 * [x] 中英文之间添加空格
 * [x] 标点符号修复
 * [ ] ~~自动排版~~
-* [ ] CI 支持，自动构建输出到 `gh-pages` 分支中的 `public` 目录
+* [x] CI 支持，自动构建输出到 `gh-pages` 分支中的 `public` 目录
 
 ## Contribution
 

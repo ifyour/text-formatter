@@ -2,10 +2,13 @@
   "private": true,
   "scripts": {
     "dev": "saber dev",
-    "build": "saber build"
+    "build": "saber build",
+    "publish": "node build/build.js"
   },
   "license": "MIT",
   "devDependencies": {
+    "gh-pages": "^1.2.0",
+    "ora": "^2.1.0",
     "saber": "^0.1.6"
   },
   "dependencies": {
