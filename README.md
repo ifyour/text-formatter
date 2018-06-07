@@ -1,6 +1,6 @@
 # Text-formatter
 
-[![](https://data.jsdelivr.com/v1/package/gh/ifyour/text-formatter/badge)](https://www.jsdelivr.com/package/gh/ifyour/text-formatter)
+[![](https://data.jsdelivr.com/v1/package/gh/ifyour/text-formatter/badge)](https://www.jsdelivr.com/package/gh/ifyour/text-formatter)[![Build Status](https://travis-ci.org/ifyour/text-formatter.svg?branch=master)](https://travis-ci.org/ifyour/text-formatter)
 
 > Another text formatting tool.
 
