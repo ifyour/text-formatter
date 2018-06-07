@@ -37,7 +37,7 @@ $ yarn dev
 $ yarn build
 
 # publish to HeroKu
-$ yarn publish
+$ yarn run publish
 ```
 
 Any types of contribution are welcome. Thanks.
