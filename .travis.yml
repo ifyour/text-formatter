@@ -1,16 +1,20 @@
 language: node_js
-node_js: stable
+sudo: false
 
-branches:
-  only:
-  - master
+node_js:
+  - "10"
 
 cache:
   directories:
-    - node_modules
-
-install:
-- npm i
+  - node_modules
 
 script:
 - npm run publish
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $REPO_TOKEN
+  local-dir: .saber/website
+  on:
+    branch: master
