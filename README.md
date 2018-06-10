@@ -18,14 +18,17 @@ A: 替换中文标点, 中英文之间添加空格.
 
 Q: 如何自定义规则?
 A: 替换 `format` 方法中的正则, 欢迎 PR 贡献代码.
+
+Q: 开发注意事项?
+A: 在 `dev` 分支开发, master 分支会直接影响线上代码, 确保 `dev` 分支 OK 后再合并到 `master` 分支.
 ```
 
 ## Todo
 
 * [x] 中英文之间添加空格
 * [x] 标点符号修复
-* [ ] ~~自动排版~~
-* [ ] CI 支持，自动构建输出到 `gh-pages` 分支中的 `public` 目录
+* [x] CI 支持，自动构建输出到 `gh-pages` 分支中的 `public` 目录
+* [ ] 可配置项: 替换标点
 
 ## Contribution
 
@@ -36,7 +39,7 @@ $ yarn dev
 # build
 $ yarn build
 
-# publish to HeroKu
+# manual release to HeroKu
 $ yarn run publish
 ```
 
