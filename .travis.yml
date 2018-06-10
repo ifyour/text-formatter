@@ -23,7 +23,7 @@ after_success:
 - cp -r ./.saber/website/* ./deploy/public
 - cd ./deploy
 - git init
-- git add --all .
+- git add .
 - git commit -m "Travis CI Auto Deploy"
 - git push --quiet --force https://$REPO_TOKEN@github.com/ifyour/text-formatter.git
   gh-pages
