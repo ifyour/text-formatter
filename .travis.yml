@@ -29,4 +29,4 @@ after_success:
 - git commit -m "Travis CI Auto Deploy"
 - git status
 - git push --quiet --force https://$REPO_TOKEN@github.com/ifyour/text-formatter.git
-  gh-pages
+  heroku
