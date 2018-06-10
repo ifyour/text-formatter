@@ -26,4 +26,4 @@ after_success:
 - git add .
 - git commit -m "Travis CI Auto Deploy"
 - git push --quiet --force https://$REPO_TOKEN@github.com/ifyour/text-formatter.git
-  master:heroku
+  master:gh-pages
