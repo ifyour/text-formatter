@@ -22,11 +22,8 @@ script:
 after_success:
 - cp -r ./.saber/website/* ./deploy/public
 - cd ./deploy
-- pwd
-- ls
 - git init
 - git add .
 - git commit -m "Travis CI Auto Deploy"
-- git status
 - git push --quiet --force https://$REPO_TOKEN@github.com/ifyour/text-formatter.git
-  heroku
+  master:heroku
