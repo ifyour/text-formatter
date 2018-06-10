@@ -22,6 +22,8 @@ script:
 after_success:
 - cp -r ./.saber/website/* ./deploy/public
 - cd ./deploy
+- pwd
+- ls
 - git init
 - git add .
 - git commit -m "Travis CI Auto Deploy"
