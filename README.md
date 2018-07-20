@@ -7,6 +7,8 @@
 
 [Live Demo →](https://text-formatter.herokuapp.com/)
 
+> 提示: 因为服务托管在 Heroku, 首次访问可能需要 30 秒唤醒服务.
+
 ## Q & A
 
 ```text
