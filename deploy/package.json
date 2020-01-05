@@ -1,0 +1,13 @@
+{
+  "name": "text-formatter",
+  "version": "1.0.0",
+  "description": "Another text formatting tool.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  }
+}

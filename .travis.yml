@@ -1,0 +1,29 @@
+language: node_js
+node_js: stable
+
+branches:
+  only:
+  - master
+
+cache:
+  directories:
+    - node_modules
+
+before_install:
+- git config --global user.name "ifyour"
+- git config --global user.email "ifyour@outlook.com"
+
+install:
+- npm i
+
+script:
+- npm run build
+
+after_success:
+- cp -r ./.saber/website/* ./deploy/public
+- cd ./deploy
+- git init
+- git add .
+- git commit -m "Travis CI Auto Deploy"
+- git push --quiet --force https://$REPO_TOKEN@github.com/ifyour/text-formatter.git
+  master:gh-pages

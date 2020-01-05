@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "saber dev",
+    "build": "saber build",
+    "publish": "node build/build.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "gh-pages": "^1.2.0",
+    "ora": "^2.1.0",
+    "saber": "^0.6.1"
+  },
+  "dependencies": {
+    "modern-copy": "^1.0.3",
+    "native-toast": "^1.3.0",
+    "pangu": "^3.3.0",
+    "spectre.css": "^0.5.1",
+    "vue-github-badge": "^1.0.1"
+  }
+}
